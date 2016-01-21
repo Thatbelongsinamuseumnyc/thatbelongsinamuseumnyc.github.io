@@ -35,6 +35,15 @@
       .navbar-brand{
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
       }
+
+      .overlay {
+        background:transparent;
+        position:relative;
+        width:640px;
+        height:480px; /* your iframe height */
+        top:480px;  /* your iframe height */
+        margin-top:-480px;  /* your iframe height */
+        }
     </style>
 
 </head>
@@ -70,6 +79,8 @@
                     <li>
                         <a class="page-scroll" href="#collections">Collections</a>
                     </li>
+                    <li><a href="https://twitter.com/tbiam_NYC"><i class="fa fa-twitter"></i></a>
+                    <li><a href="https://www.facebook.com/That-Belongs-in-a-Museum-NYC-1653740331542503"><i class="fa fa-facebook"></i></a>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -81,7 +92,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">That Belongs In A</div>
+                <div class="intro-lead-in">That Belongs In A  </div>
                 <div class="intro-heading">Museum</div>
                 <div class="intro-lead-in" style='margin-top:-20px;'>NYC</div>
 
@@ -96,7 +107,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">What is That Belongs in A Museum?</h3>
+
+                    <span class="glyphicon glyphicon-info-sign" style='font-size: 40px; margin-top:40px' aria-hidden="true"></span>
+                    <h3 style='margin-bottom: 20px' class="section-subheading text-muted">What is That Belongs in A Museum?</h3>
                     <p>
                       Have you ever had an object that is so personal to you, or has such an interesting story behind it that you wished
                       it could be put on distplay for others to enjoy and learn from? Well then That Belongs In a Museum is an event
@@ -105,21 +118,33 @@
                       to bring along a cherished object, tell us why its importatint and have it catalouged online for others to see.
                       Join us for one of our <a href="#events">events</a>.
                     </p>
-                    <h3 class="section-subheading text-muted">What should I bring?</h3>
+
+                    <span class="glyphicon glyphicon-lock"  style='font-size: 40px; margin-top:40px' aria-hidden="true"></span>
+                    <h3 style='margin-bottom: 20px'  class="section-subheading text-muted">What should I bring?</h3>
 
 
                     <p>Bring a thing with you. It should be able to fit through the door and it should probably fit on the stage. It could be imaginary but we suspect that might just be weird.
                       Presenters are chosen at random. There is a chance that you won’t get chosen. You will probably get chosen.</p>
 
-                    <h3 class='section-subheading text-muted'>How does it work?</h3>
-                    <p>You have five minutes to talk. You can talk for less than than five minutes. In fact, we strongly urge you to talk for less than five minutes.</p>
-                    <p>Here’s what you should say</p>
-                    <ul>
-                      <li>What you brought, even if it is obvious.</li>
-                      <li>Why you think it is neat.</li>
-                      <li>If you could summon a genie to put it in a museum–any museum–even if you had to make a new kind of museum for it to go in, what that would be.</li>
-                      <li>Once you are done we’ll take a picture of your thing and put it on this website so you can send a link to your mom.</li>
-                    </ul>
+                    <span class="glyphicon glyphicon-tags"  style='font-size: 40px; margin-top:40px' aria-hidden="true"></span>
+
+                    <h3  style='margin-bottom: 20px'  class='section-subheading text-muted'>How does it work?</h3>
+                    <p>When you arrive we will have a number of museum tags, if you want to present you simply fill out a tag with your name and
+                      a description of your object. We take the tags and put them in a hat, we pick them at random and then its your objects time
+                      to shine. You have five minutes to talk. You can talk for less than than five minutes. In fact, we strongly urge you to talk for less than five minutes.
+                      After that people will clap, we will take your object and photograph it and put it online in our collection along with the
+                      recording of your talk.
+                    </p>
+
+                    <span class="glyphicon glyphicon-comment"  style='font-size: 40px; margin-top:40px' aria-hidden="true"></span>
+                    <h3  style='margin-bottom: 20px'  class='section-subheading text-muted'>What should I say?</h3>
+
+
+                      <p>What you brought, even if it is obvious.</p>
+                      <p>Why you think it is neat.</p>
+                      <p>If you could summon a genie to put it in a museum–any museum–even if you had to make a new kind of museum for it to go in, what that would be.</p>
+                      <p>Once you are done we’ll take a picture of your thing and put it on this website so you can send a link to your mom.</p>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -136,10 +161,12 @@
                     <h3 class="section-subheading text-muted">Next Event</h3>
 
                     <h3>Muchmore Bar : Feb 7th 2016 7-9pm</h2>
-                    <p>Join Us for our first ever event</p>
+                    <p>Join Us for our first ever event. Sign up on the facebooks <a href='https://www.facebook.com/events/215721452102221/'>here</a></p>
+                    <div class="overlay" onClick="style.pointerEvents='none'"></div>
+
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.0674343781625!2d-73.95514094918602!3d40.71653197922998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2595be351213d%3A0xdd3607ada0fda85a!2sMuchmore&#39;s!5e0!3m2!1sen!2sus!4v1453148215021" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-
+                    <img src='http://muchmoresnyc.com/wp-content/uploads/2015/02/stage-1024x576.jpg'></img>
                 </div>
             </div>
         </div>
@@ -206,11 +233,8 @@
                         <h4>Stuart Lynn</h4>
                         <p class="text-muted">Curator of bad decisions.</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://twitter.com/stuart_Lynn"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
@@ -220,11 +244,8 @@
                         <h4>Aurelia Moser</h4>
                         <p class="text-muted">Conservator of shiny objects.</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://twitter.com/auremoser"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
@@ -234,9 +255,7 @@
                         <h4>Tiana Tucker</h4>
                         <p class="text-muted">Imaginary curator</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://twitter.com/tianatucker"><i class="fa fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -287,15 +306,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; That Belongs in a Museum 2016</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://twitter.com/tbiam_NYC"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.facebook.com/That-Belongs-in-a-Museum-NYC-1653740331542503"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </div>

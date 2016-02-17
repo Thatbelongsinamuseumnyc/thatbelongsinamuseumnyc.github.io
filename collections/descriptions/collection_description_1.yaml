@@ -1,0 +1,149 @@
+date: 16-02-2016
+location: Muchmores
+description: 'Our first event at Muchmores bar in New York!'
+name: 'Collection 1'
+items:
+  - name: Class Ring - Washington DC Eastern Highschool 1939
+    description: Photo of Mushroom cloud with
+    audio: Tania-ClassRing
+    sound_cloud: 247462119
+    main_image: classring.jpg
+    images: [classring3.jpg,classring.jpg,classring2.jpg]
+    presenter: Nick Fraccaro
+    tags: []
+    museum: ''
+
+
+  - name: Egg Man
+    description: "Ceramic doll"
+    audio: Mossie-Egg-Man
+    sound_cloud: 247462129
+    main_image: 'eggMan.jpg'
+    images: [eggman1.jpg, eggman2.jpg, eggman3.jpg]
+    presenter: 'Mossie'
+    tags: []
+    museum: ''
+
+  - name: Phone Calls
+    description: 'A series of voicemails to someone else.'
+    audio: phonecalls
+    sound_cloud: 247472244
+    main_image: phonecalls.jpg
+    images: []
+    presenter: 'Adrian Wagner'
+    tags: []
+    museum:
+
+
+  - name: Fathers Jacket / Shoes
+    description: Jacket and Shoes previously owned by presenters father
+    audio: Adrian-FathersClothes
+    sound_cloud: 247462144
+    main_image: fathersclothes.jpg
+    images: [fathersclothes1.jpg, fathersclothes2.jpg]
+    presenter: Adrian McKerracher
+    tags: [clothes,family]
+    museum: ''
+
+  - name: Hoop Earings
+    description: A pair of hoop earings
+    audio: Diamond-HoopEarings
+    sound_cloud: 247462137
+    main_image: hoopearings.jpg
+    images: [hoopearing1.jpg,hoopearing2.jpg]
+    presenter: Diamond
+    tags: [clothes]
+    museum: ''
+
+  - name: Seintimental Journey owned by artist - Photo Book by Nobuyoshi Araki
+    description: A copy of Seintimental Journey by Nobuyoshi Araki
+    audio: BillEllis-SentimentalJourney
+    sound_cloud: 247462142
+    main_image: sentimentaljourney.jpg
+    images: [sentimentaljourney1.jpg, sentimentaljourney2.jpg]
+    presenter: Bill Ellis
+    tags: [book,photograph]
+    museum: ''
+
+
+  - name: Borg Bear
+    description: 'A bear and a friend that knows all to well that resistance is futile'
+    audio: DaraBorgBear
+    sound_cloud: 247471308
+    main_image: borgbear.JPG
+    images: [borgbear1.jpg]
+    presenter: 'Dara'
+    tags: []
+    museum:
+
+
+  - name: Two books owned by presenter
+    description: Two books owned by and carried by the presenter
+    audio: CorolineYodder-Books
+    sound_cloud: 247462139
+    main_image: books.jpg
+    images: [books1.jpg,books2.jpg]
+    presenter: CorolineYodder-Books
+    tags: []
+    museum: ''
+
+  - name: Wooden Lazer etched Map - Gift
+    description: A Lazer etched map given as a gift
+    audio: Kaitlyn-map
+    sound_cloud: 247462134
+    main_image: lazermap.jpg
+    images: [lazermap1.jpg,lazermap2.jpg,lazermap3.jpg]
+    presenter: Kaitlin Thaney
+    tags: []
+    museum: ''
+
+  - name: Type Writer
+    description: Type Writer in case
+    audio: LisaTypeWriter
+    sound_cloud: 247462131
+    main_image: typewriter.jpg
+    images: [typewriter1.jpg,typewriter2.jpg]
+    presenter: Lisa
+    tags: []
+    museum: ''
+
+  - name: Playboy issue 1990
+    description: Playboy magizine from 1990
+    audio: Playboy
+    sound_cloud: 247462123
+    main_image: playboy.jpg
+    images: [playboy1.jpg]
+    presenter: Lisa
+    tags: []
+    museum: ''
+
+  - name: Programable Circuit Board
+    description: Programable circuit board, precursor to Arduino
+    audio: Mouricio-arduino-precursor
+    sound_cloud: 247462126
+    main_image: circuit.jpg
+    images: [circuit1.jpg,circuit2.jpg,circuit.jpg]
+    presenter: Mauricio Giraldo
+    tags: []
+    museum: ''
+
+  - name: Photo of Atomic Flight crew.
+    description: Photo of Mushroom cloud with
+    audio: NickActual
+    sound_cloud: 247462124
+    main_image: photo.jpg
+    images: [photo1.jpg,photo2.jpg,photo3.jpg]
+    presenter: Nick Fraccaro
+    tags: []
+    museum: ''
+
+
+  - name: Earings
+    description:
+    audio: Tim-Earings
+    sound_cloud: 247462114
+    main_image: earings.jpg
+    images: [earings1.jpg]
+    presenter: Nick Fraccaro
+    tags: []
+    museum: ''
